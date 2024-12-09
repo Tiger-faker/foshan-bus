@@ -57,7 +57,7 @@ import { ref } from 'vue';
 	const title = ref("cnm");
 	
 	const toRecommend = ()=>{
-		uni.switchTab({
+		uni.navigateTo({
 			url:"/pages/recommend/recommend"
 		})
 	}
@@ -67,7 +67,7 @@ import { ref } from 'vue';
 <style lang="scss" scoped>
 	.background{
 		width: 100%;
-		height: 1400rpx;
+		height: 90vh;
 		background: linear-gradient(to bottom, #ff9767, #fdf6f6 800rpx);
 		padding-top: 50rpx;
 		.top{
