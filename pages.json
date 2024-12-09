@@ -39,7 +39,11 @@
 			}
 		},
 		{
+<<<<<<< HEAD
 			"path" : "api/request",
+=======
+			"path" : "pages/login/login",
+>>>>>>> 2dc376fe898ac929468708fed15171f00524e3fd
 			"style" : 
 			{
 				"navigationBarTitleText" : ""
