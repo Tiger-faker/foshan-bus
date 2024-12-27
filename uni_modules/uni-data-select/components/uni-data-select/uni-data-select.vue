@@ -363,7 +363,11 @@
 	}
 
 	.uni-label-text {
+<<<<<<< HEAD
 		font-size: 30px;
+=======
+		font-size: 14px;
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 		font-weight: bold;
 		color: $uni-base-color;
 		margin: auto 0;
@@ -371,10 +375,17 @@
 	}
 
 	.uni-select {
+<<<<<<< HEAD
 		font-size: 25px;
 		// border: 1px solid $uni-border-3;
 		box-sizing: border-box;
 		border-radius: 0px;
+=======
+		font-size: 14px;
+		border: 1px solid $uni-border-3;
+		box-sizing: border-box;
+		border-radius: 4px;
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 		padding: 0 5px;
 		padding-left: 10px;
 		position: relative;
@@ -387,7 +398,11 @@
 		border-bottom: solid 1px $uni-border-3;
 		width: 100%;
 		flex: 1;
+<<<<<<< HEAD
 		height: 50px;
+=======
+		height: 35px;
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 
 		&--disabled {
 			background-color: #f5f7fa;
@@ -404,7 +419,11 @@
 	}
 
 	.uni-select__input-box {
+<<<<<<< HEAD
 		height: 45px;
+=======
+		height: 35px;
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 		position: relative;
 		/* #ifndef APP-NVUE */
 		display: flex;
@@ -416,13 +435,21 @@
 
 	.uni-select__input {
 		flex: 1;
+<<<<<<< HEAD
 		font-size: 24px;
+=======
+		font-size: 14px;
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 		height: 22px;
 		line-height: 22px;
 	}
 
 	.uni-select__input-plac {
+<<<<<<< HEAD
 		font-size: 24px;
+=======
+		font-size: 14px;
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 		color: $uni-secondary-color;
 	}
 
@@ -464,7 +491,11 @@
 		cursor: pointer;
 		/* #endif */
 		line-height: 35px;
+<<<<<<< HEAD
 		font-size: 18px;
+=======
+		font-size: 14px;
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 		text-align: center;
 		/* border-bottom: solid 1px $uni-border-3; */
 		padding: 0px 10px;
@@ -548,7 +579,11 @@
 
 	.uni-select__input-placeholder {
 		color: $uni-base-color;
+<<<<<<< HEAD
 		font-size: 15px;
+=======
+		font-size: 12px;
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 	}
 
 	.uni-select--mask {

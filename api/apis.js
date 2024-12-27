@@ -1,5 +1,6 @@
 import {request} from '@/api/request.js'
 
+<<<<<<< HEAD
 //登录接口
 export function apiLogin(data){  
 	return request({
@@ -44,3 +45,12 @@ export function apiRoutesSearch(data){
 // 			}
 // 	})
 // }
+=======
+export function apiLogin(data){
+	return request({
+		method:'POST',
+		url:"/login",
+		data
+	})
+}
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9

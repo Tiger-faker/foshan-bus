@@ -39,11 +39,20 @@
 			}
 		},
 		{
+<<<<<<< HEAD
 			"path" : "api/request",
+=======
+<<<<<<< HEAD
+			"path" : "api/request",
+=======
+			"path" : "pages/login/login",
+>>>>>>> 2dc376fe898ac929468708fed15171f00524e3fd
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 			"style" : 
 			{
 				"navigationBarTitleText" : ""
 			}
+<<<<<<< HEAD
 		},
 		{
 			"path" : "pages/history/history",
@@ -58,6 +67,8 @@
 			{
 				"navigationBarTitleText" : "注册"
 			}
+=======
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 		}
 	],
 	"tabBar": {

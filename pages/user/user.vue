@@ -2,6 +2,7 @@
 	<view class="background">
 		<view class="top">
 			<view class="logo">
+<<<<<<< HEAD
 				<img :src="userList.profile.avatar" alt="" />
 			</view>
 			<view class="name">
@@ -13,6 +14,19 @@
 				历史搜索
 			</view>
 			<view class="box" @click="toLogin()">
+=======
+				<img src="../../static/icons/hot.png" alt="" />
+			</view>
+			<view class="name">
+				王一博
+			</view>
+		</view>
+		<view class="center">
+			<view class="box">
+				历史搜索
+			</view>
+			<view class="box">
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 				退出登录
 			</view>
 		</view>

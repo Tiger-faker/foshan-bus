@@ -92,6 +92,7 @@ import {onReady,onReachBottom,onUnload} from "@dcloudio/uni-app";
 	const formattedDate = ref(`${today.getFullYear()}-${(today.getMonth() + 1).toString().padStart(2, '0')}-${today.getDate().toString().padStart(2, '0')}`);  
 	const formatted =ref();
 	
+<<<<<<< HEAD
 	const calendar = ref(null);  //日历弹出
 	
 	const citiesList = ref([]);  //城市列表
@@ -121,6 +122,12 @@ import {onReady,onReachBottom,onUnload} from "@dcloudio/uni-app";
 		}
 		// console.log("城市列表数据",range.value);
 		
+=======
+	const toRecommend = ()=>{
+		uni.navigateTo({
+			url:"/pages/recommend/recommend"
+		})
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 	}
 	
 

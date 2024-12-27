@@ -3,23 +3,36 @@
 		<view class="top">
 			<view class="city">
 				<view class="text">
+<<<<<<< HEAD
 					{{busList.data.start}}
+=======
+					佛山
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 				</view>
 				<view class="text">
 					<img src="../../static/icons/111.png" alt="" />
 				</view>
 				<view class="text">
+<<<<<<< HEAD
 					{{busList.data.end}}
+=======
+					广州
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 				</view>
 			</view>
 			<view class="data">
 				<view class="text">
+<<<<<<< HEAD
 					{{timeData}}
+=======
+					今天 11月27日
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 					<text>出发</text>
 				</view>
 			</view>
 		</view>
 		<view class="center">
+<<<<<<< HEAD
 			<view class="box" v-for="item in busList.data.schedules" :key="item._id">
 				<view class="left">
 					<view class="time">
@@ -58,6 +71,33 @@
 						<view class="button" @click="toDetail(item)">
 							详情
 						</view>
+=======
+			<view class="box" v-for="item in 10">
+				<view class="left">
+					<view class="time">
+						8:00 - 9:00
+					</view>
+					<view class="times">
+						预计行驶1个小时
+					</view>
+					<view class="station">
+						途径8个站点
+					</view>
+					<view class="bus">
+						豪华大巴
+					</view>
+				</view>
+				<view class="right">
+					<view class="recommend">
+						时间最短
+					</view>
+					<view class="price">
+						<text>9.9</text>
+						元起
+					</view>
+					<view class="button">
+						详情
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 					</view>
 				</view>
 			</view>
@@ -159,8 +199,13 @@ import { ref,computed } from 'vue';
 	.background{
 		width: 100%;
 		height: 100%;
+<<<<<<< HEAD
 		background: #f8f8f8;
 		// padding-top: 30rpx;
+=======
+		background: #f5f5f5;
+		padding-top: 30rpx;
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -169,6 +214,7 @@ import { ref,computed } from 'vue';
 		.top{
 			width: 700rpx;
 			height: 250rpx;
+<<<<<<< HEAD
 			margin: 0rpx 25rpx 10rpx 25rpx;
 			background: linear-gradient(to bottom, #ff855c, #ffffff 350rpx);
 			border-radius: 20rpx;
@@ -177,10 +223,19 @@ import { ref,computed } from 'vue';
 			position: sticky;
 			top: 77rpx;
 			z-index: 999;
+=======
+			margin: 0rpx 25rpx 20rpx 25rpx;
+			background: linear-gradient(to bottom, #ff855c, #ffffff 300rpx);
+			border-radius: 20rpx;
+			box-shadow: 0rpx 10rpx 10rpx rgba(0, 0, 0, 0.1);
+			position: sticky;
+			top: 81rpx;
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 			.city{
 				width: 700rpx;
 				height: 140rpx;
 				border-radius: 20rpx;
+<<<<<<< HEAD
 				margin-top: 10rpx;
 				padding: 0 70rpx;
 				box-sizing: border-box;
@@ -199,11 +254,35 @@ import { ref,computed } from 'vue';
 					width: 100rpx;
 				}
 	
+=======
+	
+				padding: 0 40rpx;
+				box-sizing: border-box;
+				display: flex;
+				justify-content: space-between;
+				.text{
+					width: 100rpx;
+					height: 140rpx;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					font-size: 50rpx;
+					font-weight: 800;
+				}
+				img{
+					width: 100rpx;
+				}
+	
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 			}
 			.data{
 				width: 700rpx;
 				height: 90rpx;
+<<<<<<< HEAD
 				padding-left: 65rpx;
+=======
+				padding-left: 40rpx;
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 	
 				display: flex;
 				align-items: center;
@@ -223,12 +302,21 @@ import { ref,computed } from 'vue';
 			.box{
 				width: 680rpx;
 				height: 310rpx;
+<<<<<<< HEAD
 				padding: 30rpx 40rpx;
 				margin: 25rpx 30rpx;
 				box-sizing: border-box;
 				background-color: #fff;
 				border-radius: 20rpx;
 				box-shadow: 0rpx 10rpx 10rpx rgba(0, 0, 0, 0.05);
+=======
+				padding: 30rpx;
+				margin: 18rpx 30rpx;
+				box-sizing: border-box;
+				background-color: #fff;
+				border-radius: 20rpx;
+				box-shadow: 0rpx 20rpx 50rpx rgba(0, 0, 0, 0.08);
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 				display: flex;
 				justify-content: space-between;
 				.left{
@@ -240,7 +328,11 @@ import { ref,computed } from 'vue';
 						font-weight: 800;
 					}
 					.times{
+<<<<<<< HEAD
 						margin-bottom: 50rpx;
+=======
+						margin-bottom: 40rpx;
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 						color: rgba(0, 0, 0, 0.5);
 					}
 					.station{
@@ -260,6 +352,7 @@ import { ref,computed } from 'vue';
 					display: flex;
 					flex-direction: column;
 					align-items: flex-end;
+<<<<<<< HEAD
 					position: relative;
 					.recommend-top{
 						height: 120rpx;
@@ -304,6 +397,35 @@ import { ref,computed } from 'vue';
 							font-weight: 800;
 							font-size: 32rpx;
 						}
+=======
+					.recommend{
+						font-size: 36rpx;
+						font-weight: 800;
+					}
+					.price{
+						margin-top: 40rpx;
+						font-size: 27rpx;
+						color: rgba(0, 0, 0, 0.8);
+						text{
+							font-size: 40rpx;
+							font-weight: 800;
+							color: rgba(0, 0, 0, 1);
+						}
+					}
+					.button{
+						width: 150rpx;
+						height: 70rpx;
+						margin: 20rpx 10rpx;
+						margin-bottom: 0rpx;
+						background-color: #ff855c;
+						border-radius: 30rpx;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						color: #fff;
+						font-weight: 800;
+						font-size: 32rpx;
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 					}
 				}
 			}

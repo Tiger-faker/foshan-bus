@@ -1,4 +1,8 @@
 <template>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 	<view class="background">
 		<view class="popup">
 			<!-- 普通弹窗 -->
@@ -41,31 +45,61 @@
 				/>
 			</view>
 			<view class="button">
+<<<<<<< HEAD
 				<button type="warn" @click="toIndex();loading()">登录</button>
 			</view>
 		</view>
 		<view class="register" @click="toRegister()">
 			注册...
 		</view>
+=======
+				<button type="warn" @click="toIndex">登录</button>
+			</view>
+		</view>
+=======
+<<<<<<< HEAD
+	<view class="background">
+		
+=======
+	<view class="">
+
+>>>>>>> 2eca9a224b5e4dd3f763de704ad1d466a6520712
+>>>>>>> 2dc376fe898ac929468708fed15171f00524e3fd
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 	</view>
 </template>
 
 <script setup>
+<<<<<<< HEAD
 import { ref } from 'vue';
 import { apiLogin } from '@/api/apis.js';
 
 	const names =ref(); //账号
 	const passwords=ref();  //密码
 	const popup = ref(null);  //错误弹出层
+=======
+<<<<<<< HEAD
+import { ref } from 'vue';
+import { apiLogin } from '@/api/apis.js';
+
+	const names =ref();
+	const passwords=ref();
+	const popup = ref(null);
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 	
 	const name=(e)=>{
 		names.value = e.detail.value;
 
 	}
+<<<<<<< HEAD
+=======
+	
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 	const password=(e)=>{
 		passwords.value = e.detail.value;
 	}
 	
+<<<<<<< HEAD
 	const loading =()=>{   //加载弹窗
 		uni.showLoading({
 			title:"登录中",
@@ -90,16 +124,35 @@ import { apiLogin } from '@/api/apis.js';
 		else{
 			popup.value.open(); //错误弹出层
 			uni.hideLoading();
+=======
+	const toIndex = async ()=>{
+		let res = await apiLogin({
+			username: "coya",
+			password: "1111111"
+		});
+		
+		console.log(res.statusCode);
+		if(res.statusCode==200){
+			uni.switchTab({
+				url: '/pages/index/index'
+			});
+		}
+		else{
+			popup.value.open();
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 		}
 		
 	}
 	
+<<<<<<< HEAD
 	const toRegister =()=>{
 		uni.navigateTo({
 			url:"/pages/register/register"
 		});
 	}
 	
+=======
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 </script>
 
 <style lang="scss" scoped>
@@ -154,6 +207,7 @@ import { apiLogin } from '@/api/apis.js';
 				height: 100rpx;
 				margin-top: 15rpx;
 			}
+<<<<<<< HEAD
 			
 		}
 		.register{
@@ -167,4 +221,24 @@ import { apiLogin } from '@/api/apis.js';
 			color: #818181;
 		}
 	}
+=======
+		}
+	}
+=======
+
+</script>
+
+<style lang="scss" scoped>
+<<<<<<< HEAD
+	.background{
+		width: 100%;
+		height: 1400rpx;
+		background: linear-gradient(to bottom, #ff9767, #fdf6f6 800rpx);
+		padding-top: 50rpx;
+	}
+=======
+	
+>>>>>>> 2eca9a224b5e4dd3f763de704ad1d466a6520712
+>>>>>>> 2dc376fe898ac929468708fed15171f00524e3fd
+>>>>>>> b6966335321cf364f74b8eea23da82fe294f04e9
 </style>
